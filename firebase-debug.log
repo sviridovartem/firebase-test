@@ -1,0 +1,36 @@
+[debug] [2017-07-11T11:52:19.633Z] ----------------------------------------------------------------------
+[debug] [2017-07-11T11:52:19.638Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Sviridov.34Z\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-11T11:52:19.638Z] CLI Version:  3.9.1
+[debug] [2017-07-11T11:52:19.638Z] Platform:     win32
+[debug] [2017-07-11T11:52:19.639Z] Node Version: v8.1.2
+[debug] [2017-07-11T11:52:19.639Z] Time:         Tue Jul 11 2017 14:52:19 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:19.640Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-11T11:52:19.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-11T11:52:19.686Z] > authorizing via signed-in user
+[debug] [2017-07-11T11:52:19.691Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-07-11T11:52:19.691Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/4uqVMdDoNXK8IoFYEHf_LFYBEhZK5nK-Fy0RQAnweWz1LzIm_mfhfJlwkNnRfkSH',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Jul 11 2017 14:52:19 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:19.974Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-11T11:52:20.101Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendlychat-aaf6a  
+ Tue Jul 11 2017 14:52:20 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:21.096Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-11T11:52:21.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendlychat-aaf6a/tokens  
+ Tue Jul 11 2017 14:52:21 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:21.780Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Sviridov.34Z\Desktop\friendlychat'...
+[info] 
+[debug] [2017-07-11T11:52:21.783Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-aaf6a  
+ Tue Jul 11 2017 14:52:21 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:22.719Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-11T11:52:22.720Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/883565379752/clients/_:getWebAppConfig  
+ Tue Jul 11 2017 14:52:22 GMT+0300 (Фінляндія (літо))
+[debug] [2017-07-11T11:52:23.463Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
